@@ -1,8 +1,10 @@
 #### Synopsis:
 
-The repository employs the Apriori algorithm to mine frequent itemsets within the MovieLens database,  and generate association rules based on these frequent itemsets.
+The repository employs the Apriori algorithm to mine frequent itemsets within the MovieLens database,  and generate association rules based on these frequent itemsets.<br>
 The generation of association rules plays a big role in contemporary Retail and Market Basket Analysis.
-At every level in the apriori algorithm, the generated itemsets are further pruned. This ensures that unnecesary itemsets are not worked upon, generating non-frequent itemsets in forthcoming levels  (derived from the apriori property).
+
+At every level in the apriori algorithm, the generated itemsets are further pruned.<br>
+This ensures that unnecesary itemsets are not worked upon, generating non-frequent itemsets in forthcoming levels  (derived from the apriori property).
 
 The ratings.csv dataset contains 1,00,836 ratings submitted by MovieLens users across 9,742 movies (present in movies.csv). 
 
