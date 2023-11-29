@@ -1,4 +1,4 @@
-#### Synopsis:
+### Synopsis:
 
 The repository employs the Apriori algorithm to mine frequent itemsets within the MovieLens database,  and generate association rules based on these frequent itemsets.<br>
 The generation of association rules plays a big role in contemporary Retail and Market Basket Analysis.
@@ -13,7 +13,7 @@ Of the association rules so mined, the top 100 with the highest support and conf
 Sample recall and precision values are determined as well (using a 20% test set).
 
 
-#### Execution:
+### Execution:
 
 The files ruleminer.py and recommender.py mine the association rules and make recommendations for a specific user respectively.<br>
 GUI Backend required to display plots.<br>
