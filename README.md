@@ -16,6 +16,5 @@ Sample recall and precision values are determined as well (using a 20% test set)
 #### Execution:
 
 The files Ruleminer.py and recommender.py mine the association rules and make recommendations for a specific user respectively.
-
 GUI Backend required to display plots.
 Files may take a few minutes to run given the size of the dataset.
