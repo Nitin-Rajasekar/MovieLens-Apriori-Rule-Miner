@@ -8,13 +8,13 @@ This ensures that unnecesary itemsets are not worked upon, generating non-freque
 
 The ratings.csv dataset contains 1,00,836 ratings submitted by MovieLens users across 9,742 movies (present in movies.csv). 
 
-Of the association rules so mined, the top 100 with the highest support and confidence are present in X.txt and Y.txt respectively.
+Of the association rules so mined, the top 100 with the highest support and confidence are present in RulesMaxConf.txt and RulesMaxSupport.txt respectively.
 
 Sample recall and precision values are determined as well (using a 20% test set).
 
 
 #### Execution:
 
-The files Ruleminer.py and recommender.py mine the association rules and make recommendations for a specific user respectively.<br>
+The files ruleminer.py and recommender.py mine the association rules and make recommendations for a specific user respectively.<br>
 GUI Backend required to display plots.<br>
 Files may take a few minutes to run given the size of the dataset.
